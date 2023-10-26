@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_JG.css">
+    <script src="skrypty_JG.js"></script>
+    <title>Jan Gładykowski GraSumowa</title>
+</head>
+<body>
+    <h1>Jan Gładykowski </h1>
+    <h2>Naucz się szybko liczyć!</h2>
+    <table>
+    <tr>
+    <th>Bilans gracza:</th>
+    <th id='bilansGracza'>0</th>
+    <th>suma</th>
+    </tr>
+    <tr>
+    <td id='n1'></td>
+    <td id='n2'></td>
+    
+    <td><input id='suma' type='number' disabled></td>
+</tr>
+<tr>
+<td id='n3'></td>
+<td id='n4'></td>
+<td><button id='zadanie' onclick='zadanie()' disabled>Zadanie</button></td>
+</tr>
+<tr>
+<td id='n5'></td>
+<td id='n6'></td>
+<td><button id='sprawdz' onclick='sprawdz()' disabled>Sprawdź</button></td>
+</tr>
+</table>
+<br><button onclick = 'nowaGra()'>Nowa gra</button><br><br>
+<label>ile wierszy</label>
+<select id='ileWierszy' disabled>
+<option value='1'>1</option>
+<option value='2'>2</option>
+<option value='3'>3</option>
+</select><br>
+<label>ile pytań</label>
+<select id='ilePytan' disabled>
+<option value='1'>1</option>
+<option value='2'>2</option>
+<option value='3'>3</option>
+<option value='4'>4</option>
+<option value='5'>5</option>
+<option value='6'>6</option>
+</select><br>
+<br><button id='start' onclick = 'start()' disabled>Start</button><br><br>
+</body>
+
+</html>
